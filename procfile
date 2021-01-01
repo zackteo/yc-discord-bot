@@ -1,0 +1,1 @@
+worker: java -cp target/prayer-bot.jar clojure.main -m prayer-bot.core

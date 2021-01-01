@@ -6,5 +6,8 @@
   :dependencies [[dk.ative/docjure "1.14.0"]
                  [org.clojure/clojure "1.10.1"]
                  [org.suskalo/discljord "1.1.1"]]
+  :min-lein-version "2.0.0"
+  :uberjar-name "prayer-bot.jar"
   :repl-options {:init-ns prayer-bot.core}
+  :profiles {:uberjar {:aot :all}}
   :main prayer-bot.core)
